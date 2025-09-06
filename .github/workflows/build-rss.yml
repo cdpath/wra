@@ -74,24 +74,29 @@ jobs:
       
     - name: Generate feeds.json
       run: |
-        # 生成 JSON 格式的 feed 列表
-        echo "[" > feeds.json
+        > feeds.json
         
         if [ -d "source_xml" ]; then
           find source_xml -name "*.xml" -type f | sort | while read -r file; do
             filename=$(basename "$file")
             url="https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/${{ github.ref_name }}/source_xml/${filename}"
-            echo "  \"${url}\"," >> feeds.json
+            
+            # 读取第4行并提取 CDATA 内容
+            title=$(sed -n '4p' "$file" | sed 's/.*<!\[CDATA\[\(.*\)\]\]>.*/\1/')
+            
+            # 如果没有提取到内容，使用文件名
+            if [ -z "$title" ] || [ "$title" = "$(sed -n '4p' "$file")" ]; then
+              title="$filename"
+            fi
+            
+            # 转义双引号
+            title_escaped=$(echo "$title" | sed 's/"/\\"/g')
+            
+            echo "{\"name\": \"${title_escaped}\", \"feed\": \"${url}\"}" >> feeds.json
           done
-          
-          # 移除最后一个逗号
-          sed -i '$ s/,$//' feeds.json
         fi
         
-        echo "]" >> feeds.json
-        
-        # 显示生成的文件数量
-        FEED_COUNT=$(grep -c "https://" feeds.json || echo "0")
+        FEED_COUNT=$(wc -l < feeds.json)
         echo "Generated feeds.json with ${FEED_COUNT} RSS feeds"
         
     - name: Commit and push changes
