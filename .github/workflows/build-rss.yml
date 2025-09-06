@@ -1,0 +1,70 @@
+name: Update RSS from WebDAV
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-rss:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        pip install zstandard
+        # 安装 rclone
+        curl https://rclone.org/install.sh | sudo bash
+        
+    - name: Configure rclone
+      env:
+        WEBDAV_URL: ${{ secrets.WEBDAV_URL }}
+        WEBDAV_USER: ${{ secrets.WEBDAV_USER }}
+        WEBDAV_PASS: ${{ secrets.WEBDAV_PASS }}
+      run: |
+        # 创建 rclone 配置
+        mkdir -p ~/.config/rclone
+        cat > ~/.config/rclone/rclone.conf <<EOF
+        [webdav]
+        type = webdav
+        url = ${WEBDAV_URL}
+        vendor = other
+        user = ${WEBDAV_USER}
+        pass = $(rclone obscure ${WEBDAV_PASS})
+        EOF
+        
+    - name: Sync files from WebDAV
+      run: |
+        # 同步 db_storage 目录
+        rclone sync webdav:db_storage ./db_storage -v --include "*.db"
+        
+        # 列出下载的文件
+        echo "Downloaded files:"
+        find db_storage -name "*.db" -type f
+        
+    - name: Run db2rss.py
+      run: |
+        python db2rss.py
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        git add source_xml/
+        
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update RSS feeds [skip ci]"
+          git push
+        fi
+
