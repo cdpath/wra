@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[量子位]]></title>
+    <link>https://mp.weixin.qq.com/</link>
+    <description><![CDATA[量子位公众号]]></description>
+    <language>zh-cn</language>
+    <image>
+      <url>https://wx.qlogo.cn/mmhead/ver_1/yeD1WZVSMjicZXwGsR17FwBTlnuumFkomzdTFZV4LgbgJRTcyzWvegIQTFjicicBSKRHAvoDn2iaNJ1Du2mkR0sHIbs16rQ8CsdPY1Bp1khAbOQ/132</url>
+      <title>gh_114e76fd6e5d</title>
+    </image>
+    <item>
+      <title><![CDATA[拜拜Claude！阿里最强万亿模型编程秒了Opus4，实测在此]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtAcDhkXhGQtvVzZrG4KSkxQ4ics0yUB0YuKwsNomwfEHYpNIxAQicj4DrVviad3pPoibPuD9MIc3o8EiaQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>一水 发自 凹非寺量子位 | 公众号 QbitAI总参数达到1万亿，阿里迄今为止最大的模型来了！没错，就是前几日大家期待已久的Qwen3-Max-Preview （Instruct）。1万亿啥概念？几</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247823431&amp;idx=1&amp;sn=53f6c39a016fcd5ffccb624739f39843&amp;chksm=e9048b3ae4388608c3d7e54de66066518606c51e1d45347791203383c155997ec93453df2d79&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 06 Sep 2025 11:45:14 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[字节发了个机器人全能大模型，带队人李航]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBjKOhDNv64aRxvLgdcL8O3YIPicWibRpMyL5wu50p5ddy3GSqEpGsJpGe9FPGg4PVqe8gLb1Tcibj7Q/300?wxtype=jpeg&amp;wxfrom=0"/><p>闻乐 发自 凹非寺量子位 | 公众号 QbitAI机器人终于不用散装大脑了！字节Seed一个模型就能搞定机器人推理、任务规划和自然语言交互。经常做机器人的朋友都知道，以前想让机器人干活，得先解决一个烦</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247823431&amp;idx=2&amp;sn=824d327a4e16af0bb52846d0d6ce412f&amp;chksm=e9530e23219e4a2405dfb8ab89665539019d25b3282c8805b6689e95818c40f64808a4940499&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 06 Sep 2025 11:45:14 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[调整训练数据出场顺序，大模型就能变聪明！无需扩大模型/数据规模]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtCgbeYziaLrTt9ibIpicYicqwXF0Oa9McJDCwakhcbkzSe1m7z0riboToeBbpttyts5g2DqLkQCe6XNIaw/300?wxtype=jpeg&amp;wxfrom=0"/><p>DELT团队 投稿量子位 | 公众号 QbitAI模型训练重点在于数据的数量与质量？其实还有一个关键因素——数据的出场顺序。对此，微软亚洲研究院提出了一种全新的文本数据组织范式DELT（Data Ef</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247823431&amp;idx=3&amp;sn=3bec5e57f5ffc0c2e45baa83e542a266&amp;chksm=e9babe388aa235d582266a8a51880991ebc7ff5ef1a5a1b81fcee745217d948225717048d812&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 06 Sep 2025 11:45:14 +0800</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[InfoQ]]></title>
+    <link>https://mp.weixin.qq.com/</link>
+    <description><![CDATA[InfoQ公众号]]></description>
+    <language>zh-cn</language>
+    <image>
+      <url>https://wx.qlogo.cn/mmhead/ver_1/G8HyNlyUVYy80vHz4UibptAUnJ1ickQMx9VAmMju2PcDxauR7lsssZPOLXbo13pciayGIEGicibia82Mq1KIoxQwN7sQ8IeLs7J9pCcFbPCNBnsu6mDgQKWwtTxIetPRGldiaia5Ud3We6GkEHegd294kjrp8w/132</url>
+      <title>gh_b443474846ae</title>
+    </image>
+    <item>
+      <title><![CDATA[拒绝招聘、产品粗糙，却成史上最快增长软件公司！4个00后“整顿”创业圈：大家都不信，才是我们的机会]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VOgZ6OSjXS5iadKicjnxFGpxrVQ0Rjwj0DX3VFibjWAAlADXZx0wiaia7gdZP5XUNNcGuRUdfcrbAG2ArQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>整理 | 褚杏娟、核子可乐 Cursor 是当代 AI 编程工具极速崛起的典型代表。3 个月发布、仅 16 个月时间内用户数超 360,000，付费用户转化率极高，到 2025 年 6 月年度经常性收</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651255405&amp;idx=1&amp;sn=df1c216750475615d296991183826cd7&amp;chksm=bc51669f37e3240d58aec713ef39cb4aaf3bdacd8114d1cbc883e9867d6572ce59f9eb5a7fab&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 06 Sep 2025 10:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[AICon 2025 深圳回顾：AI Agent 爆火全场，管理与推理优化成新焦点]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VOgZ6OSjXS5iadKicjnxFGpxr2JGibXA5eeDl2NfnM8YwIrfpbg5HVC9NMMdNQx05iabfCRI5Mc0eHskQ/300?wxtype=jpeg&amp;wxfrom=0"/><p>2025 年 8 月 22–23 日，AICon 全球人工智能开发与应用大会在 深圳湾万丽酒店 圆满落幕。两天时间，70+ 位嘉宾 带来前沿分享，议题覆盖 AI Agent、推理优化、业务提效、企业管</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651255405&amp;idx=2&amp;sn=a9956e36d7f009a0da565a1810c02214&amp;chksm=bca69370534f8f2475aa8c90d76ed4e99503609bc3c3b6d4b3ebe121eb0052f9298e9b9ec662&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 06 Sep 2025 10:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[虚拟智库：运用大语言模型获取多元视角]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VOgZ6OSjXS5iadKicjnxFGpxrLbpwk6vchicIundHR1uddFXVmLk2FkQ6eQtKCbUuHXKscKHF5bicfJmA/300?wxtype=jpeg&amp;wxfrom=0"/><p>作者 | Avraham Poupko 译者 | 平川 本文基于与大语言模型（LLM）的广泛互动。阅读 LLM 生成的内容可能会相当乏味，文中仅保留了简短的引述。无论如何，读者朋友们最好在自己的 LL</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651255405&amp;idx=3&amp;sn=400beb0ccc0558903929b33106beb7f7&amp;chksm=bc0223247231142b9c2ffa9f0491d95827cb320c59eccfe190bc9ec027ad870bbd6fc9afed21&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 06 Sep 2025 10:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Claude Opus 4.1 上线，SWE-bench 验证率 74.5%，重构可靠性与安全性全面升级]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VOgZ6OSjXS5iadKicjnxFGpxrxudF4jsTiazIBfRmBhticOS1hBAB2qPU9Vmwqe7vYF2QM9LniaRhfpUNQ/300?wxtype=jpeg&amp;wxfrom=0"/><p>作者 | Hien Luu 译者 | 田橙 Anthropic 已推出 Claude Opus 4.1，这是针对 Opus 4 的重要升级版，显著增强了模型在多文件项目中的代码可靠性，并提升了模型在长</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651255405&amp;idx=4&amp;sn=47105bc8fb338081ffd6b83676653d47&amp;chksm=bc890335d1b967ca59d5457b0e1b13ec857f80b11e0fb225e06135bfa41ce2324413def35d84&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 06 Sep 2025 10:15:00 +0800</pubDate>
+    </item>
+  </channel>
+</rss>

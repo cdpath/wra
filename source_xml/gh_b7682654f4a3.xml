@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[AI前线]]></title>
+    <link>https://mp.weixin.qq.com/</link>
+    <description><![CDATA[AI前线公众号]]></description>
+    <language>zh-cn</language>
+    <image>
+      <url>https://wx.qlogo.cn/mmhead/ver_1/PCkD9K3mJoKicZvw6fQhsFQL4m9icicghuN3Zs0M8M3NV9yXsxlPSGIloj0wJ4PJbib1NuoDydhZUQxPKibX5ARkqdWIianQTQpv83yJOTN5RMxS11y8lAoWzricnk4qDDx35wr/132</url>
+      <title>gh_b7682654f4a3</title>
+    </image>
+    <item>
+      <title><![CDATA[Rust 天花板级大神公开发帖找工作：3000 次核心提交，不敌 “会调 OpenAI API、用 Cursor”？]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/ZBjVrHIdkOksTynR7RqVw1KNp2rPuoIibVnjIJR5gv9xc3Nq0ICdUaeicQsGic1J8HcHTMD2IkZbzebugZyFVl0gA/640?wxtype=jpeg&amp;wxfrom=0"/><p>整理 | Tina 当全世界的资金和注意力都在涌向 AI 时，Rust 社区里出现了一则引人关注的动态：两位知名的核心贡献者，Nicholas Nethercote 和 Michael Goulet，</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247644620&amp;idx=1&amp;sn=10f561de7a1c95b595eeaeb1f563f939&amp;chksm=fa8469d561099567642f6b149be412aed3b65cb4d0714c02d62c67cb1994477a14cc2164323a&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 06 Sep 2025 13:30:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[AICon 2025 深圳回顾：AI Agent 爆火全场，管理与推理优化成新焦点]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/ZBjVrHIdkOlvtEswMz6mK0DECVHOAbfdgzib7ibDmK9xDrzmgxRLSbXvjFZSqJXibcAExqLAbuzwpMrKr71fibgic2g/300?wxtype=jpeg&amp;wxfrom=0"/><p>2025 年 8 月 22–23 日，AICon 全球人工智能开发与应用大会在 深圳湾万丽酒店 圆满落幕。两天时间，70+ 位嘉宾 带来前沿分享，议题覆盖 AI Agent、推理优化、业务提效、企业管</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247644620&amp;idx=2&amp;sn=61c268def27f59551fc2e6375dc69bdf&amp;chksm=fa5fce80ad5ac389a520b3097f5085ea284a732629ecf1d37d31541b2fa69ec2eafcabdf2fc3&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 06 Sep 2025 13:30:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[AI 时代一码多端的现实与幻象，究竟提升了效率，还是制造了新的复杂度？| 直播预告]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/ZBjVrHIdkOlvtEswMz6mK0DECVHOAbfdOzHhpzZzR1djs3IEcykezUDR0vg3ubV9GhjrwOPOLicg8ib3jdrEtiaXg/300?wxtype=jpeg&amp;wxfrom=0"/><p>“一码多端”的背景下，开发者面临的技术、架构与团队协作的全新挑战，AI 究竟带来了开发效率的提升？还是制造了新的复杂度？ 不想被淘汰？「点击预约下方直播」👇直播介绍直播时间9 月 8 日 20:00-</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247644620&amp;idx=3&amp;sn=05e6d33e9dc6333816bb5892f3886299&amp;chksm=facc652c084ea202625717481cd6076b63cb21a28898a825d2779241278629189354eaaf03a4&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 06 Sep 2025 13:30:00 +0800</pubDate>
+    </item>
+  </channel>
+</rss>
