@@ -71,13 +71,28 @@ jobs:
         
     - name: Run db2rss.py
       run: python db2rss.py
+      
+    - name: Generate feeds.txt
+      run: |
+        # 生成 feeds.txt 文件
+        # 遍历 source_xml 目录中的所有 .xml 文件
+        if [ -d "source_xml" ]; then
+          find source_xml -name "*.xml" -type f | sort | while read -r file; do
+            filename=$(basename "$file")
+            echo "https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/${{ github.ref_name }}/source_xml/${filename}" >> feeds.txt
+          done
+        fi
+        
+        # 显示生成的文件数量
+        FEED_COUNT=$(grep -c "^https://" feeds.txt || echo "0")
+        echo "Generated feeds.txt with ${FEED_COUNT} RSS feeds"
         
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        git add source_xml/
+        git add source_xml/ feeds.txt
         
         if ! git diff --staged --quiet; then
           git commit -m "Update RSS feeds [skip ci]"
