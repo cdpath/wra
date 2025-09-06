@@ -2,7 +2,7 @@ name: Update RSS from WebDAV
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -15,8 +15,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -27,20 +25,24 @@ jobs:
     - name: Cache rclone
       uses: actions/cache@v4
       with:
-        path: /usr/local/bin/rclone
-        key: rclone-v1.71.0
+        path: ~/.local/bin/rclone
+        key: rclone-${{ runner.os }}-v1.71.0
         
     - name: Install dependencies
       run: |
         pip install zstandard
         
-        # 检查 rclone 是否已缓存
-        if [ ! -f "/usr/local/bin/rclone" ]; then
+        if [ ! -f "$HOME/.local/bin/rclone" ]; then
           echo "Installing rclone..."
-          curl https://rclone.org/install.sh | sudo bash
-        else
-          echo "Using cached rclone"
+          mkdir -p ~/.local/bin
+          curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
+          unzip -q rclone-current-linux-amd64.zip
+          cp rclone-*/rclone ~/.local/bin/
+          chmod +x ~/.local/bin/rclone
+          rm -rf rclone-*
         fi
+        
+        echo "$HOME/.local/bin" >> $GITHUB_PATH
         
     - name: Configure rclone
       env:
@@ -48,11 +50,9 @@ jobs:
         WEBDAV_USER: ${{ secrets.WEBDAV_USER }}
         WEBDAV_PASS: ${{ secrets.WEBDAV_PASS }}
       run: |
-        # 从 WEBDAV_URL 中解析基础 URL 和路径（不打印到日志）
         BASE_URL=$(echo "${WEBDAV_URL}" | sed 's|\(https://[^/]*\).*|\1|')
         WEBDAV_PATH=$(echo "${WEBDAV_URL}" | sed 's|https://[^/]*||')
         
-        # 创建 rclone 配置
         mkdir -p ~/.config/rclone
         cat > ~/.config/rclone/rclone.conf <<EOF
         [webdav]
@@ -63,35 +63,14 @@ jobs:
         pass = $(rclone obscure ${WEBDAV_PASS})
         EOF
         
-        # 测试连接（不显示详细路径）
-        echo "Testing WebDAV connection..."
-        if rclone lsd webdav:${WEBDAV_PATH} >/dev/null 2>&1; then
-          echo "✓ Connection successful"
-        else
-          echo "✗ Connection failed"
-          exit 1
-        fi
-        
-        # 导出变量供后续步骤使用
         echo "WEBDAV_PATH=${WEBDAV_PATH}" >> $GITHUB_ENV
         
     - name: Sync files from WebDAV
       run: |
-        # 同步 db_storage 目录
-        echo "Syncing database files..."
-        rclone sync webdav:${WEBDAV_PATH}/db_storage ./db_storage --include "*.db" --progress
-        
-        # 统计下载的文件数量（不显示具体路径）
-        DB_COUNT=$(find db_storage -name "*.db" -type f | wc -l)
-        echo "Downloaded ${DB_COUNT} database files"
+        rclone sync webdav:${WEBDAV_PATH}/db_storage ./db_storage --include "*.db"
         
     - name: Run db2rss.py
-      run: |
-        python db2rss.py
-        
-        # 统计生成的 RSS 文件数量
-        RSS_COUNT=$(find source_xml -name "*.xml" -type f 2>/dev/null | wc -l || echo "0")
-        echo "Generated ${RSS_COUNT} RSS files"
+      run: python db2rss.py
         
     - name: Commit and push changes
       run: |
@@ -100,9 +79,7 @@ jobs:
         
         git add source_xml/
         
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
+        if ! git diff --staged --quiet; then
           git commit -m "Update RSS feeds [skip ci]"
           git push
         fi
