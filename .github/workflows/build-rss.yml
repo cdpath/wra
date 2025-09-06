@@ -24,14 +24,38 @@ jobs:
         # 安装 rclone
         curl https://rclone.org/install.sh | sudo bash
         
-    - name: Configure rclone
+    - name: Debug WebDAV connection
       env:
         WEBDAV_URL: ${{ secrets.WEBDAV_URL }}
         WEBDAV_USER: ${{ secrets.WEBDAV_USER }}
         WEBDAV_PASS: ${{ secrets.WEBDAV_PASS }}
       run: |
-        # 创建 rclone 配置
+        # 先用 curl 测试连接
+        echo "Testing with curl first..."
+        curl -u "${WEBDAV_USER}:${WEBDAV_PASS}" \
+          -X PROPFIND \
+          -H "Depth: 1" \
+          "${WEBDAV_URL}" \
+          -s | head -20
+        
+        echo ""
+        echo "Testing db_storage path..."
+        curl -u "${WEBDAV_USER}:${WEBDAV_PASS}" \
+          -X PROPFIND \
+          -H "Depth: 1" \
+          "${WEBDAV_URL}/db_storage/" \
+          -s | head -20
+        
+    - name: Configure and test rclone
+      env:
+        WEBDAV_URL: ${{ secrets.WEBDAV_URL }}
+        WEBDAV_USER: ${{ secrets.WEBDAV_USER }}
+        WEBDAV_PASS: ${{ secrets.WEBDAV_PASS }}
+      run: |
+        # 创建 rclone 配置 - 尝试不同的配置
         mkdir -p ~/.config/rclone
+        
+        # 配置1: 标准配置
         cat > ~/.config/rclone/rclone.conf <<EOF
         [webdav]
         type = webdav
@@ -41,43 +65,63 @@ jobs:
         pass = $(rclone obscure ${WEBDAV_PASS})
         EOF
         
-        # 测试连接并列出根目录
-        echo "Testing WebDAV connection..."
-        rclone lsd webdav: -v
+        echo "=== Testing standard config ==="
+        rclone lsd webdav: --dump headers 2>&1 | head -50 || true
+        echo ""
         
-    - name: Sync files from WebDAV
+        # 配置2: 添加尾部斜杠
+        cat > ~/.config/rclone/rclone.conf <<EOF
+        [webdav]
+        type = webdav
+        url = ${WEBDAV_URL}/
+        vendor = other
+        user = ${WEBDAV_USER}
+        pass = $(rclone obscure ${WEBDAV_PASS})
+        EOF
+        
+        echo "=== Testing with trailing slash ==="
+        rclone lsd webdav: -vv 2>&1 | head -50 || true
+        echo ""
+        
+        # 尝试列出 db_storage
+        echo "=== Trying to list db_storage ==="
+        rclone ls webdav:db_storage -vv 2>&1 | head -50 || true
+        echo ""
+        
+        # 尝试使用不同的 vendor
+        cat > ~/.config/rclone/rclone.conf <<EOF
+        [webdav]
+        type = webdav
+        url = ${WEBDAV_URL}
+        vendor = nextcloud
+        user = ${WEBDAV_USER}
+        pass = $(rclone obscure ${WEBDAV_PASS})
+        EOF
+        
+        echo "=== Testing with nextcloud vendor ==="
+        rclone lsd webdav: -vv 2>&1 | head -50 || true
+        
+    - name: Try different rclone approaches
+      env:
+        WEBDAV_URL: ${{ secrets.WEBDAV_URL }}
+        WEBDAV_USER: ${{ secrets.WEBDAV_USER }}
+        WEBDAV_PASS: ${{ secrets.WEBDAV_PASS }}
       run: |
-        # 列出 db_storage 目录内容
-        echo "Listing db_storage directory:"
-        rclone ls webdav:db_storage --max-depth 3 -v
+        # 尝试直接使用命令行参数
+        echo "=== Using command line parameters ==="
+        rclone lsd :webdav: \
+          --webdav-url="${WEBDAV_URL}" \
+          --webdav-vendor=other \
+          --webdav-user="${WEBDAV_USER}" \
+          --webdav-pass="$(rclone obscure ${WEBDAV_PASS})" \
+          -vv 2>&1 | head -50 || true
         
-        # 同步整个 db_storage 目录
-        echo "Syncing db_storage..."
-        rclone sync webdav:db_storage ./db_storage -v --include "*.db"
-        
-        # 列出下载的文件
-        echo "Downloaded files:"
-        find db_storage -name "*.db" -type f
-        
-    - name: Run db2rss.py
-      run: |
-        python db2rss.py
-        
-        # 显示生成的文件
-        echo "Generated RSS files:"
-        ls -la source_xml/ || echo "No RSS files generated"
-        
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-        git add source_xml/
-        
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Update RSS feeds [skip ci]"
-          git push
-        fi
+        echo ""
+        echo "=== Trying to list with full path ==="
+        rclone ls :webdav:db_storage \
+          --webdav-url="${WEBDAV_URL}" \
+          --webdav-vendor=other \
+          --webdav-user="${WEBDAV_USER}" \
+          --webdav-pass="$(rclone obscure ${WEBDAV_PASS})" \
+          -vv 2>&1 | head -50 || true
 
