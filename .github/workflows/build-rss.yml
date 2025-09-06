@@ -72,27 +72,34 @@ jobs:
     - name: Run db2rss.py
       run: python db2rss.py
       
-    - name: Generate feeds.txt
+    - name: Generate feeds.json
       run: |
-        # 生成 feeds.txt 文件
-        # 遍历 source_xml 目录中的所有 .xml 文件
+        # 生成 JSON 格式的 feed 列表
+        echo "[" > feeds.json
+        
         if [ -d "source_xml" ]; then
           find source_xml -name "*.xml" -type f | sort | while read -r file; do
             filename=$(basename "$file")
-            echo "https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/${{ github.ref_name }}/source_xml/${filename}" >> feeds.txt
+            url="https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/${{ github.ref_name }}/source_xml/${filename}"
+            echo "  \"${url}\"," >> feeds.json
           done
+          
+          # 移除最后一个逗号
+          sed -i '$ s/,$//' feeds.json
         fi
         
+        echo "]" >> feeds.json
+        
         # 显示生成的文件数量
-        FEED_COUNT=$(grep -c "^https://" feeds.txt || echo "0")
-        echo "Generated feeds.txt with ${FEED_COUNT} RSS feeds"
+        FEED_COUNT=$(grep -c "https://" feeds.json || echo "0")
+        echo "Generated feeds.json with ${FEED_COUNT} RSS feeds"
         
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        git add source_xml/ feeds.txt
+        git add source_xml/ feeds.json
         
         if ! git diff --staged --quiet; then
           git commit -m "Update RSS feeds [skip ci]"
