@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[阿里云开发者]]></title>
+    <link>https://mp.weixin.qq.com/</link>
+    <description><![CDATA[阿里云开发者公众号]]></description>
+    <language>zh-cn</language>
+    <image>
+      <url>https://wx.qlogo.cn/mmhead/ver_1/OicNFTbBYiaDp6nsLuRAFHF8XhB5a7UuxdOU7Naw38RX0UIdA5mNzM687Q3RKYp2wA52TqUKxoEakqLGHs87KprFeGEf2W4v72OlKkm7qFDjA/132</url>
+      <title>gh_7fc9311f04ad</title>
+    </image>
+    <item>
+      <title><![CDATA[迈向可编程观测：在GPU Kernel中构建类eBPF风格的性能探针]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/Z6bicxIx5naLc6icibCS6AuUV3ySkeUiax7RVUib89cFUgqt0UMUlf3CvsLpZ003QM0trSTqJ3epY0mNhAicVpDbXELA/640?wxtype=jpeg&amp;wxfrom=0"/><p>阿里妹导读本文旨在梳理作者学习路径，带领读者共同探索 GPU Kernel 性能分析从宏观到微观的技术演进。引言作为一名使用eBPF进行CPU性能分析的工程师，在转向学习GPU性能优化分析时，一直在思</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247552903&amp;idx=1&amp;sn=2d6784e9a23a9c545a94e70fb9f416ce&amp;chksm=e8cb4d904f5038a5d117499c3eae0cb4771fe25c79ad8a0a1b5ea1d628cbd7230ba6748be442&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Mon, 08 Sep 2025 08:30:00 +0800</pubDate>
+    </item>
+  </channel>
+</rss>
