@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[摩尔线程]]></title>
+    <link>https://mp.weixin.qq.com/</link>
+    <description><![CDATA[摩尔线程公众号]]></description>
+    <language>zh-cn</language>
+    <image>
+      <url>https://wx.qlogo.cn/mmhead/ver_1/eNHJEgwxySg2F8padvwvxNccia02yRBnfD9X5davw5Ro071sgibqrfAr3DfhYJSnzG2tvBhfkRe4Zdho5iaCv7coezF18oGqggDTXTwTrULNyQ/132</url>
+      <title>gh_e9d760a8585f</title>
+    </image>
+    <item>
+      <title><![CDATA[强化FSDP2分布式训练支持，摩尔线程发布Torch-MUSA v2.1.1]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/pHxmWbGvia4yCjxHBbwrERZY9qhgKicpzo4ELAcib5ljX86eia8p8J3iarldGoNGrwS9fib4s4nvq6MWqicRTCPht9K0w/640?wxtype=jpeg&amp;wxfrom=0"/><p>近日，摩尔线程发布其面向PyTorch深度学习框架的MUSA扩展库——Torch-MUSA v2.1.1。该版本在v2.1.0的基础上，进一步扩展了对大规模深度学习模型训练与推理的支持能力，并在编译优</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=Mzg3MTU3Mjc4OQ==&amp;mid=2247490488&amp;idx=1&amp;sn=e88d813e106a13df6274756d8a67d2ce&amp;chksm=cf7a6960d626c062e6f8a1179f0d5d4cb0a60653c2d63ff9d1c769f4771777047011f7de02dd&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Tue, 09 Sep 2025 22:19:38 +0800</pubDate>
+    </item>
+  </channel>
+</rss>
