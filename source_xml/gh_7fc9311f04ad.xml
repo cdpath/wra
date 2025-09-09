@@ -10,6 +10,12 @@
       <title>gh_7fc9311f04ad</title>
     </image>
     <item>
+      <title><![CDATA[多智能体自主规划模式性能提升：五大精准策略详解]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/Z6bicxIx5naIuRdV03r20rtdfwAHZTokLTCGU0fLJw4PlhlkVqiaERKTNibTEuXlWHAb1uowAnBddEGFtAzAxfichQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>阿里妹导读本文基于生产环境中的多智能体 React 模式实践，系统剖析了自主规划架构在工具调用延迟、上下文膨胀、中间态缺失、循环失控与监督缺位等方面的典型挑战。React模式挑战点在多智能体协作调度中</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247552943&amp;idx=1&amp;sn=0bd1eeaf77d9755f3eb99492f79fbf0e&amp;chksm=e8aace9a63cb8ece8cf29f684ae5028298675a7789b5193992f0a5c4c3aa618a9611882a4ce6&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Tue, 09 Sep 2025 08:30:00 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[迈向可编程观测：在GPU Kernel中构建类eBPF风格的性能探针]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/Z6bicxIx5naLc6icibCS6AuUV3ySkeUiax7RVUib89cFUgqt0UMUlf3CvsLpZ003QM0trSTqJ3epY0mNhAicVpDbXELA/640?wxtype=jpeg&amp;wxfrom=0"/><p>阿里妹导读本文旨在梳理作者学习路径，带领读者共同探索 GPU Kernel 性能分析从宏观到微观的技术演进。引言作为一名使用eBPF进行CPU性能分析的工程师，在转向学习GPU性能优化分析时，一直在思</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247552903&amp;idx=1&amp;sn=2d6784e9a23a9c545a94e70fb9f416ce&amp;chksm=e8cb4d904f5038a5d117499c3eae0cb4771fe25c79ad8a0a1b5ea1d628cbd7230ba6748be442&amp;scene=0&amp;xtrack=1#rd</link>
