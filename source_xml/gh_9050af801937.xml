@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[算能SOPHGO]]></title>
+    <link>https://mp.weixin.qq.com/</link>
+    <description><![CDATA[算能SOPHGO公众号]]></description>
+    <language>zh-cn</language>
+    <image>
+      <url>https://wx.qlogo.cn/mmhead/ver_1/zaicESQlmlk0BE2ajRIGgGExb8LLTwd8f1VlrnoVE82M3G0FIibcG6BEs1RjFZQvbSOqlxS5kId2cB5YuqWZxUxZ7zlSibDOnjibo6ib0SwTKuDs/132</url>
+      <title>gh_9050af801937</title>
+    </image>
+    <item>
+      <title><![CDATA[Kimi K2 0905已上线SophNet，支持256K上下文！]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/rVviahia3BibwTlriaqzMviaZ66aFhDZJpQe4jffXLvRiaQzqic9BxFuPibwRlicO9o4ptB96xjgYMiayCDc0kQDNWKjic40A/640?wxtype=jpeg&amp;wxfrom=0"/><p>9月5日，Kimi发布K2模型最新版本0905，面向真实软件工程与前端开发场景全面升级：Agentic Coding能力显著增强、前端代码美观与实用性同步提升、上下文长度扩展至256K。SophNet</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=Mzg3MTk4MDQxNA==&amp;mid=2247495941&amp;idx=1&amp;sn=aa1082766421f42ea9063c5e405ec12f&amp;chksm=cfb82e591a06d77a27adcdec835d3caf70d41cba9f8f7af76158a60c49c06a3593d19df00607&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Tue, 09 Sep 2025 18:11:07 +0800</pubDate>
+    </item>
+  </channel>
+</rss>
