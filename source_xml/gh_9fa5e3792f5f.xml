@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[昇腾CANN]]></title>
+    <link>https://mp.weixin.qq.com/</link>
+    <description><![CDATA[昇腾CANN公众号]]></description>
+    <language>zh-cn</language>
+    <image>
+      <url>http://wx.qlogo.cn/mmhead/ylRhrSjQb8jmH6XGdd0BMu2DVwJN0aDnlseNp27y8gqelE4W8zic87tf8gWb3Q2iaEwAmSibwBRqfQ/132</url>
+      <title>gh_9fa5e3792f5f</title>
+    </image>
+    <item>
+      <title><![CDATA[深度解读昇腾CANN动态Shape图调度加速技术]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/7lJFWiaLa9a9E3ntdBGNfibnVYibShZO8ZX4gPermerzwyhjf3CxHaaQA9dz1RapxEAd2JxLnLu96OvNa2qRXoibSQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>在AI模型运行过程中，通常需要CPU和AI专用处理器（如昇腾AI处理器）协同工作。CPU所在位置称为主机端（Host），而NPU所在位置称为设备端（Device）。主机端擅长处理复杂的逻辑计算，而设备</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzA4MzM0ODMyMA==&amp;mid=2447514463&amp;idx=1&amp;sn=cb2d3416a1e9340dc63e503b97c78d49&amp;chksm=8ac259b669017d398c533000c798784c825eeb68678ea2b3031bcc66caafef9fbf6f1a586fca&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Wed, 10 Sep 2025 11:26:30 +0800</pubDate>
+    </item>
+  </channel>
+</rss>
