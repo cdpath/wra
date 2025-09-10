@@ -10,6 +10,12 @@
       <title>gh_7fc9311f04ad</title>
     </image>
     <item>
+      <title><![CDATA[分布式事务：共识之外，分布式系统状态管理的另一大基石]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/Z6bicxIx5naL1zVD6DgqPfAc2e6DNJRj5KMr8rc26JEE5WFoeCy7C3gg0hDwutymZ3L82xSzmrxuOXkvJxibz1Kw/640?wxtype=jpeg&amp;wxfrom=0"/><p>阿里妹导读本文深入探讨了分布式系统中“共识”与“事务”两大核心技术的本质区别与协同关系。一、既知“共识”，何求“事务”鄙人不才，这些年分享了一系列有关共识协议的文章，或详述理论，或细说实践，从状态机到</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247552955&amp;idx=1&amp;sn=d05fd04e0b32486760705fcc8e4e8859&amp;chksm=e87551382879183c337b06b1a7d1bc45fead73aed7298c55a3f7e52805aca409e14a4748ce76&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Wed, 10 Sep 2025 08:30:00 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[多智能体自主规划模式性能提升：五大精准策略详解]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/Z6bicxIx5naIuRdV03r20rtdfwAHZTokLTCGU0fLJw4PlhlkVqiaERKTNibTEuXlWHAb1uowAnBddEGFtAzAxfichQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>阿里妹导读本文基于生产环境中的多智能体 React 模式实践，系统剖析了自主规划架构在工具调用延迟、上下文膨胀、中间态缺失、循环失控与监督缺位等方面的典型挑战。React模式挑战点在多智能体协作调度中</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247552943&amp;idx=1&amp;sn=0bd1eeaf77d9755f3eb99492f79fbf0e&amp;chksm=e8aace9a63cb8ece8cf29f684ae5028298675a7789b5193992f0a5c4c3aa618a9611882a4ce6&amp;scene=0&amp;xtrack=1#rd</link>
