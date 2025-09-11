@@ -10,6 +10,12 @@
       <title>gh_e9d760a8585f</title>
     </image>
     <item>
+      <title><![CDATA[摩尔线程发布大模型训练仿真工具SimuMax v1.0：仿真精度显著提升，显存误差仅1%]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/pHxmWbGvia4zbHs26uvCQh5uAG13BNBvS2E6u70bu7nn2TaFictzribBSSv29wia8xPMMkia4LCk7W31ZuxxDicnVQGQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>近日，摩尔线程正式发布并开源大模型分布式训练仿真工具SimuMax 1.0版本。该版本在显存和性能仿真精度上实现突破性提升，同时引入多项关键功能，进一步增强了模型兼容性、灵活性与用户体验。SimuMa</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=Mzg3MTU3Mjc4OQ==&amp;mid=2247490501&amp;idx=1&amp;sn=03c3fd0d9c4e31edde61efbf65682fa5&amp;chksm=cf1aab54986b3fe00133808cb9cc7967c09d4923c5e219fc6611ab662a5eadff2b3a63f9e53a&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Thu, 11 Sep 2025 18:00:00 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[强化FSDP2分布式训练支持，摩尔线程发布Torch-MUSA v2.1.1]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/pHxmWbGvia4yCjxHBbwrERZY9qhgKicpzo4ELAcib5ljX86eia8p8J3iarldGoNGrwS9fib4s4nvq6MWqicRTCPht9K0w/640?wxtype=jpeg&amp;wxfrom=0"/><p>近日，摩尔线程发布其面向PyTorch深度学习框架的MUSA扩展库——Torch-MUSA v2.1.1。该版本在v2.1.0的基础上，进一步扩展了对大规模深度学习模型训练与推理的支持能力，并在编译优</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=Mzg3MTU3Mjc4OQ==&amp;mid=2247490488&amp;idx=1&amp;sn=e88d813e106a13df6274756d8a67d2ce&amp;chksm=cf7a6960d626c062e6f8a1179f0d5d4cb0a60653c2d63ff9d1c769f4771777047011f7de02dd&amp;scene=0&amp;xtrack=1#rd</link>
