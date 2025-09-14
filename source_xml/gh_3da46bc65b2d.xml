@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[云边学堂]]></title>
+    <link>https://mp.weixin.qq.com/</link>
+    <description><![CDATA[云边学堂公众号]]></description>
+    <language>zh-cn</language>
+    <image>
+      <url>https://wx.qlogo.cn/mmhead/ver_1/Lvh2sYIL7cvyDZEMibTvTgQVQ45mQoRHib1vicUKlkEpXR1N4EapwpVpOpJ0UuALOCpV8ZUl4L62L6s6eKfJacbqJxv528ldBrZFKdzEmUuMz0/132</url>
+      <title>gh_3da46bc65b2d</title>
+    </image>
+    <item>
+      <title><![CDATA[AMD ROCm Lab AI 速训营成功举办，云融应邀参加共建AI算力生态]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmecoa.qpic.cn/sz_mmecoa_jpg/8vonTtO2MXibcF4fib8yAv3hhovSP2iaYz4uuDpLYXickWc1qbxHgViafBibDVqcsbe7XFN0Hg0FBCvbYg6dHr93pa0g/640?wxtype=jpeg&amp;wxfrom=10000"/><p>AMD ROCm Lab AI 速训营成功举办，云融应邀参加共建AI算力生态9月6日，AMD ROCm Lab AI 速训营成功举办。现场汇聚超200多位AI领域同仁，涵盖985/211高校师生、</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzODY1MTk4Mg==&amp;mid=2247493030&amp;idx=1&amp;sn=896c32d7959ddcaad312b93d8e0f42f6&amp;chksm=e816ec5c705bd9320f8a982a167231ad0a1acea2fae72f28d63419f828f063b2d544698b8f11&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sun, 14 Sep 2025 12:47:53 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[ROCm 软件生态概述]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmecoa.qpic.cn/sz_mmecoa_jpg/8vonTtO2MXib2Fq0lDyrdvbo7sFk9FVORgjovgXzibZt7a1b1qjJZibsRUTZlZxyfCj3mBGugJZGlRyiagYwnbQC5Q/300?wxtype=jpeg&amp;wxfrom=10000"/><p>ROCm 软件生态概述ROCm（Radeon Open Compute Platform）是 AMD 发起的开源（MIT License）GPU 计算软件栈，用于在高性能计算（HPC）、人工智能（A</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzODY1MTk4Mg==&amp;mid=2247493030&amp;idx=2&amp;sn=d508ed157f99780e49270979994c9bd5&amp;chksm=e899cb63e67a5d1cfe5bff19f94ff900cc6abc642c33752ceb506622dd7aa654dcb2c6671047&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sun, 14 Sep 2025 12:47:53 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[使用HIP将CUDA程序迁移至ROCm]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmecoa.qpic.cn/sz_mmecoa_jpg/8vonTtO2MXib2Fq0lDyrdvbo7sFk9FVOR9oW7ckSxcXk5kps5lHyHicuwibROickevoiaf9RQQs1IqyKhuCyuspEFFQ/300?wxtype=jpeg&amp;wxfrom=10000"/><p>使用 HIP 将 CUDA 程序迁移至 ROCmROCm HIP（Heterogeneous-compute Interface for Portability）是 ROCm 平台的核心编程接口，旨</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzODY1MTk4Mg==&amp;mid=2247493030&amp;idx=3&amp;sn=76b6b4f2e66c56c0d4f1723717110ea9&amp;chksm=e8db0052a7ef28b0f4e796da8a0933edf9d3e69986cc6bcdb3136fc6129291ca5a981debd31e&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sun, 14 Sep 2025 12:47:53 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[ROCm程序性能分析工具]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmecoa.qpic.cn/sz_mmecoa_jpg/8vonTtO2MXib2Fq0lDyrdvbo7sFk9FVORrlsTVzjyH8VAqDznLVI46sNhSDTga87Yv98NqqWI8FeXnfkHBjsA0A/300?wxtype=jpeg&amp;wxfrom=10000"/><p>ROCm 程序性能分析工具系统级性能分析工具能够为 CPU、GPU 和互连组件的时间消耗分布情况提供具有参考价值的总体概况，不过，它们通常把 GPU 核心执行视作不透明的时间单元。当机器学习编译器对</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzODY1MTk4Mg==&amp;mid=2247493030&amp;idx=4&amp;sn=9935b12aee0ba4274d9d81efafcf1664&amp;chksm=e853b25eabc7bd34047e6a274fd3720063c81eda9336b22719c5db065498d9f1410b85b5ad7e&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sun, 14 Sep 2025 12:47:53 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[AITER：面向ROCm的AI张量引擎]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmecoa.qpic.cn/sz_mmecoa_jpg/8vonTtO2MXib2Fq0lDyrdvbo7sFk9FVORkI79oldJcnRwQqDt4lc03IMarZOXYiaaGTtfQGicbOSFcmG6q6xEGABQ/300?wxtype=jpeg&amp;wxfrom=10000"/><p>AITER：面向 ROCm 的 AI 张量引擎AITER（AI Tensor Engine for ROCm）是一款专门为ROCm平台量身打造的新型人工智能张量引擎，其核心目标是为各类机器学习任务</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzODY1MTk4Mg==&amp;mid=2247493030&amp;idx=5&amp;sn=450e0abe3fd60900c5dcc8c4fb33ddd7&amp;chksm=e8edd2eb9551f47bd59b63d59f84fcf5e1e717dd2fd71a6f4a65bb8aad3ba998b0fe49154a54&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sun, 14 Sep 2025 12:47:53 +0800</pubDate>
+    </item>
+  </channel>
+</rss>
