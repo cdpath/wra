@@ -10,6 +10,12 @@
       <title>gh_7fc9311f04ad</title>
     </image>
     <item>
+      <title><![CDATA[不只是写代码：Qwen Code 如何规划、执行并验证软件工程任务]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/Z6bicxIx5naIdOEBn8g8Htb100XiaoDflpbQ0KyE59AfvdJuDINfAJInrLh1couujXdX34mY8ccCSH4gXxtqiarVA/640?wxtype=jpeg&amp;wxfrom=0"/><p>阿里妹导读本文以阿里推出的 CLI 工具 Qwen Code 为例，深入剖析其如何通过精细化的 Prompt 设计（角色定义、核心规范、任务管理、工作流控制），赋予大模型自主规划、编码、测试与验证的能</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247553122&amp;idx=1&amp;sn=6265fae252eb0af4b1fca1224e989577&amp;chksm=e8e65a5063301b51d16ce61314cda40c499acc7bafb7c8d855a992ce33661b8cd589fcd5aa80&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Thu, 18 Sep 2025 08:30:00 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[30分钟轻松掌握Cursor，快速提升开发效率和体验]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/Z6bicxIx5naLplhpfKr6aTFfqRMEHWFTUW5t9e8icXvvmbsicf4psBX8QxxnBkJ4GzfWrsaibY3778VluIa5MR1KLQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>阿里妹导读本文通过在WebX老项目中实践，验证了Cursor利用AI大模型可高效生成符合老旧项目规范的代码框架，显著提升开发效率与体验。前言人工智能在快速发展，目前AI辅助编程也已经从简单的补全代码发</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247553100&amp;idx=1&amp;sn=9bf5a250d4b95d8b06e4dbd0a6451fdf&amp;chksm=e88ea3264f79c21d2089eb4cd6fa7692a8738f09ddcf711b9d2d29c7771cb7401fdbc512e070&amp;scene=0&amp;xtrack=1#rd</link>
