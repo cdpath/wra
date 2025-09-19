@@ -10,6 +10,12 @@
       <title>gh_7fc9311f04ad</title>
     </image>
     <item>
+      <title><![CDATA[配置驱动的动态Agent架构网络：实现高效编排、动态更新与智能治理]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/Z6bicxIx5naIzkTLiaY77FdLCEMT5mOHjWUIsgEdQKaZsZfkqcPaTG0TEjuibEjCUiaeibhcNXg66CicBEZ2T9r9pHTQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>阿里妹导读本文系统性地提出并阐述了一种配置驱动的独立运行时Agent架构，旨在解决当前低代码/平台化Agent方案在企业级落地时面临困难，为Agent开发领域提供了一套通用的、可落地的标准化范式。一、</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247553131&amp;idx=1&amp;sn=ab445c9bd270243cbce0f403a8dd7672&amp;chksm=e8f75684a937558c696415251ea79c52ac1cf42353082162a2fc160255c12b3553a492a03cf8&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Fri, 19 Sep 2025 08:30:00 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[不只是写代码：Qwen Code 如何规划、执行并验证软件工程任务]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/Z6bicxIx5naIdOEBn8g8Htb100XiaoDflpbQ0KyE59AfvdJuDINfAJInrLh1couujXdX34mY8ccCSH4gXxtqiarVA/640?wxtype=jpeg&amp;wxfrom=0"/><p>阿里妹导读本文以阿里推出的 CLI 工具 Qwen Code 为例，深入剖析其如何通过精细化的 Prompt 设计（角色定义、核心规范、任务管理、工作流控制），赋予大模型自主规划、编码、测试与验证的能</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247553122&amp;idx=1&amp;sn=6265fae252eb0af4b1fca1224e989577&amp;chksm=e8e65a5063301b51d16ce61314cda40c499acc7bafb7c8d855a992ce33661b8cd589fcd5aa80&amp;scene=0&amp;xtrack=1#rd</link>
