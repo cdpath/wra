@@ -10,6 +10,18 @@
       <title>gh_9fa5e3792f5f</title>
     </image>
     <item>
+      <title><![CDATA[nn算子仓今日开源，解锁无限可能！今晚19:00，揭秘开源实践核心]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/7lJFWiaLa9aibA3qCjj1EGTh4DriciccSsGU7IsT5iaCXKFaR3uq5umXbibThr6cpo9Gj3Bwiamg3RAteE7jIVOzmYzicA/640?wxtype=jpeg&amp;wxfrom=0"/><p>ops-nn算子仓今日开源，今晚19：00，锁定CANN开源算子周Meetup<ops-nn算子仓开源>直播专场！！！✅ 第一手ops-nn算子仓设计思路解读与Matmul能力深度解析✅ 如何快速上手</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzA4MzM0ODMyMA==&amp;mid=2447514557&amp;idx=1&amp;sn=c112e47ef23f0e9a49e108ee6db8f345&amp;chksm=8a6680f2ae941b3b976fc614dca9b84d9f7bf122aab89979579ab5ac67f44e25d282e3ab1512&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 27 Sep 2025 10:12:37 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Dispatch&amp;Combine如何在昇腾A3上实现深度性能挖掘？]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/7lJFWiaLa9a8VrQsPjIlDxmIwBE4QOveUH0s7NI97eN1P3wYkOACquPJNx2ASibSeOT0TaQeD8OZTa3JCkBq4HHA/300?wxtype=jpeg&amp;wxfrom=0"/><p>众所周知，在大模型训练和推理领域，MoE架构凭借其动态专家激活机制带来的计算稀疏性优势，以及千亿参数规模下的高推理吞吐能力，已然成为超大规模模型的核心技术方案。该架构通过分发（Dispatch）和组合</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzA4MzM0ODMyMA==&amp;mid=2447514557&amp;idx=2&amp;sn=652891190ec2507f10b09a0638ea1c4f&amp;chksm=8a817ebe32c0e75d58e691214e12041018bb875bc2379ba0f253042de35dc6b2ac6c82025969&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Sat, 27 Sep 2025 10:12:37 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[19:00点锁定CANN算子开源周Meetup直播间，cv算子仓开源就在今天]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/7lJFWiaLa9a8VrQsPjIlDxmIwBE4QOveUa7cSbYoq1Kur4IT1B8ib1wibx9Y2PGwVYor8QV7niaibg6R6McQjksuxRQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>距离「CANN算子开源周Meetup」cv算子仓开源直播专场开启仅剩8小时！这是一场关于社区与算子的纯粹分享。✅ 图像处理和目标识别类算子开源介绍✅ 启用cube计算插值类算子，助力CV类模型性能提升</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzA4MzM0ODMyMA==&amp;mid=2447514548&amp;idx=1&amp;sn=c945af8ab437dea2be972caf37d26fa0&amp;chksm=8a795b7e01e17bb7390e3a6ba093a7fbb134fa1616ec7755465e0bd6f886da34f110282865a2&amp;scene=0&amp;xtrack=1#rd</link>
