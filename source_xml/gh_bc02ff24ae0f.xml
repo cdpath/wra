@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[DeepSeek]]></title>
+    <link>https://mp.weixin.qq.com/</link>
+    <description><![CDATA[DeepSeek公众号]]></description>
+    <language>zh-cn</language>
+    <image>
+      <url>https://wx.qlogo.cn/mmhead/Q3auHgzwzM7vjBVuErFhplWhJJzHU6WzXIRU5ZU2rAiaOAHYjwz270w/132</url>
+      <title>gh_bc02ff24ae0f</title>
+    </image>
+    <item>
+      <title><![CDATA[DeepSeek-V3.2-Exp 发布，训练推理提效，API 同步降价]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/pkWC42uvwkmiaA2zOcIBnlSe6w5RxdV6SNCXRwbyZXIZEX3iac3tKtq6DJPcHIJvNPru2xt3waF4aLia6aibZo2tVA/640?wxtype=jpeg&amp;wxfrom=0"/><p>今天，我们正式发布 DeepSeek-V3.2-Exp 模型，这是一个实验性（Experimental）的版本。作为迈向新一代架构的中间步骤，V3.2-Exp 在 V3.1-Terminus 的基础上</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&amp;mid=2247485670&amp;idx=1&amp;sn=a5b347ee6f39b646e21e0c649f197c1f&amp;chksm=c255d8d21fd7f0f53554dd112a4c0c30bf5f37b2f348d0f3ede09b5850d24bbe740085050592&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Mon, 29 Sep 2025 18:01:39 +0800</pubDate>
+    </item>
+  </channel>
+</rss>
