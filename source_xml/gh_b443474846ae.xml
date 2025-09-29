@@ -10,6 +10,24 @@
       <title>gh_b443474846ae</title>
     </image>
     <item>
+      <title><![CDATA[金融行业用好大模型，只有“垂直”一个解]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VM0Ciap6C5JeiaMp3l76rRG7nJUiaCMCQDu4do3t5bwowgvic21EPhoUPvfTmKwt8ReibZ0iavwLs80hibFw/640?wxtype=jpeg&amp;wxfrom=0"/><p>作者 | 凌敏 当大模型以应用落地论英雄时，谁在裸泳显而易见。尤其在复杂业务场景下，面对千丝万缕的业务逻辑，模型能不能用和好不好用之间的界线愈发明显。金融行业作为复杂业务场景的代表，自然成了大模型们的</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651257655&amp;idx=1&amp;sn=6fbe4bbd87a78590e0df5cc96beb3698&amp;chksm=bca1ce1c8ca13c79bef527c87e383f77e0b8107030beea4bfe03a187de87be9e1d71c2412073&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Mon, 29 Sep 2025 15:11:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Java语言架构师Brian Goetz谈Java可能如何演变]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VM0Ciap6C5JeiaMp3l76rRG7nUibiaQ1nMkHXZibFc19zicZxwXe8ysSGU6xfkCSN8QDBcYBRob0jibG6bibg/300?wxtype=jpeg&amp;wxfrom=0"/><p>作者 | David Cassel译者 | 平川策划 | Tina本文最初发布于 THENEWSTACK 博客。在上个月举行的 JVM 峰会上，Java 语言架构师 Brian Goetz 在演讲中</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651257655&amp;idx=2&amp;sn=aad27f4fb26fda6ae3db76d036439ffd&amp;chksm=bc864d6a23d7a821745c6a0ec2ca5644abb6be0e8014bdd4fe576401dd0707c8df3aa25a6a69&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Mon, 29 Sep 2025 15:11:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Datadog 发布统一的基于 Rust 的实时度量指标引擎 Monocle]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VM0Ciap6C5JeiaMp3l76rRG7nAjeticNNqoEkc0bEulpmTbicdURbpFRR3PrCO9bzcyAzU0uCbrZcib7bg/300?wxtype=jpeg&amp;wxfrom=0"/><p>作者 | Leela Kumili 译者 | 张卫滨 Datadog 推出了 Monocle，这是一个用 Rust 编写的、新型的实时时间序列存储引擎。该系统统一了公司的度量指标存储基础设施，提供了更</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651257655&amp;idx=3&amp;sn=2157921a023c250f8787f8da67b42efc&amp;chksm=bc4f7226fd5ce06573e27cf5c4472a6b88dcbb97ca4d4c07448ee1282d402ec23ba18f25844e&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Mon, 29 Sep 2025 15:11:00 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[4 人起步，Next.js 之父带队冲出Agent爆款：开发者用户一年超过去十年，一秒生成 7 个应用！]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VMV8hbasayADricGNEnBU40PQvrY6ktiaYOvMrhSwUeVSwFD3xvOkSl7OZy7kOQfbWrkq2GMKSkAfuA/640?wxtype=jpeg&amp;wxfrom=0"/><p>编译 | 傅宇琪、Tina Vercel 的 V0 迎来了大更新，在 Vibe Coding 产品竞争愈发激烈的当下，它不再只是一个“AI 搭建网页”的工具，而是升级为更全面的 Agent ——能够自</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651257611&amp;idx=1&amp;sn=0d52c7b1c318c4da579a1bcf51345d3e&amp;chksm=bcaea7d12af9c3184d3da5198bc397156589eff5d8731e49185f9b9ac7632c0bb9ca0f2fa21e&amp;scene=0&amp;xtrack=1#rd</link>
@@ -290,24 +308,6 @@
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VOxYibJSnDSKTunklGqAzMQBKic2ZNZhXzIwFUJx9UjOc2hCzXl9dozubb9sJKouZfoLpt8B5B0sMibA/300?wxtype=jpeg&amp;wxfrom=0"/><p>作者 | Renato Losio 译者 | 马可薇 全新开源缓存软件 Pogocache 近日发布 1.0 正式版，主打低延迟与 CPU 高效能特性。该软件支持多种主流通信协议，并宣称相比其他开源缓</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651256364&amp;idx=3&amp;sn=b8d9c4f8bd599449d78c8dc5dac222f9&amp;chksm=bc18e966f209e06e40884a46f8f730b6f83b2e8e82c721fdf03b0f4057f94975454653524779&amp;scene=0&amp;xtrack=1#rd</link>
       <pubDate>Wed, 17 Sep 2025 14:48:00 +0800</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[研究发现，GitHub 的“oops commits”中包含了数千条已泄露的秘密信息h]]></title>
-      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VOxYibJSnDSKTunklGqAzMQBtoleBtqQgWXqfm40n11D8jN5nribL995otGxTfCetNKG7HfXJibVnQhA/300?wxtype=jpeg&amp;wxfrom=0"/><p>作者 | Craig Risi 译者 | 张卫滨 安全研究员 Sharon Brizinov 与 Truffle Security 合作，对 GitHub 的“oops commits”进行了全面调查</p>]]></description>
-      <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651256364&amp;idx=4&amp;sn=2ed95ec07e3b4b21036b7ae0889106eb&amp;chksm=bc75d1f1d92ae544c646c9ca6957fabf5b992f27cf1e8ee4630bc3b88755a6c6326103e2cedc&amp;scene=0&amp;xtrack=1#rd</link>
-      <pubDate>Wed, 17 Sep 2025 14:48:00 +0800</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[以「场景」定义算力：AI时代，通用算力不只“通用”]]></title>
-      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VOxYibJSnDSKTunklGqAzMQBcOwByaKFtWlBqdk0H2sp6SibJJsgZPm9QjCOaWHQk29xEM5aMocCMiaA/640?wxtype=jpeg&amp;wxfrom=0"/><p>作者 | 刘杨楠 当 AI 狂欢席卷全球，无论是 GPU 还是 CPU，一场静默的场景化算力革命已然发生。阿里云和 AMD 通过“一芯三用”重新定义了 AI 时代的算力选型逻辑。从盲目追随算力参数的</p>]]></description>
-      <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651256303&amp;idx=1&amp;sn=53806d1a580e6e5e2d9f9b0829c0f6b6&amp;chksm=bc9cb9434c99a7196300a82a6c8a99ea4b5df114c365ff41ecefac74f2d7a01bd8ed76051614&amp;scene=0&amp;xtrack=1#rd</link>
-      <pubDate>Tue, 16 Sep 2025 18:10:00 +0800</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Learn to Reason _ The way of Baichuan-M1-ClinicReasoning]]></title>
-      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/YriaiaJPb26VOxYibJSnDSKTunklGqAzMQBAkiatfBzHcicXDMyplsibXNSXoJQhMfUpom10V5oiaoAB5m0OksMXtcxAg/300?wxtype=jpeg&amp;wxfrom=0"/><p>演讲嘉宾｜阎栋 编辑 ｜ Kitty 策划 ｜QCon 全球软件开发大会 自 2024 年 9 月以来，大语言模型在推理方面的展现出了惊人的进展。在代码、数学等结果可以被高效验证的领域，大语言模型已经</p>]]></description>
-      <link>http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651256303&amp;idx=2&amp;sn=6715ab8b760dfa2f6628f26d4f50975c&amp;chksm=bc798870654b5778b9eeb4aa9694be920ab81f1bc1caf099ac954bb46a1b086834455f0d29be&amp;scene=0&amp;xtrack=1#rd</link>
-      <pubDate>Tue, 16 Sep 2025 18:10:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
