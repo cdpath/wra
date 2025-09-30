@@ -10,6 +10,12 @@
       <title>gh_3a181fa836b6</title>
     </image>
     <item>
+      <title><![CDATA[TileAI社区与昇腾完成对接，携手推动开源生态发展]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/OCxOD3xB4DUYsyD4z09icz5qCplibx7CjyCnbwu6jpcBBB8WyaRb6C7ZQkrw1oGF7X3eW44Pib17EeRBrvLtTwxRw/640?wxtype=jpeg&amp;wxfrom=0"/><p>近日，AI基础软件开源生态迎来重要进展，TileAI社区开发的AI编程语言TileLang成功实现了与昇腾的初步对接。这一合作使开发者能够用自己熟悉的编程模式，基于昇腾简易高效的开发AI高性能算子，也</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzUyNjk4NjM1MA==&amp;mid=2247717587&amp;idx=1&amp;sn=2e914164e8dfb973eb332e5e29c895fa&amp;chksm=fb200f7e42cfeb655951b024df95d9b7e85c4fbada57dc3709474ea99dd5d2c8ade9e4bb863f&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Tue, 30 Sep 2025 19:21:44 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[昇腾0Day支持DeepSeek-V3.2-Exp，PyPTO/TileLang加速算子编程]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/OCxOD3xB4DVArtibRzB5cLiaLK6sYib4ybeqgLViblvKQcr2sibcZX7kxNvgS1MpOLZGgVETibVKtGD42ic6veCgvEvkQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>2025年9月29日，DeepSeek-V3.2-Exp发布并开源，引入稀疏Attention架构。昇腾已快速基于vLLM/SGLang等推理框架完成适配部署，实现DeepSeek-V3.2-Exp</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzUyNjk4NjM1MA==&amp;mid=2247717574&amp;idx=1&amp;sn=a80f4b4dc767c4d7c49134fb7c1ed8aa&amp;chksm=fb64746f626bd1d5dba1997203dbdd177c90c2bb7387126012fce2e04ad2b9f7732e3d1978aa&amp;scene=0&amp;xtrack=1#rd</link>
@@ -302,12 +308,6 @@
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/OCxOD3xB4DUKgYfor8M7aojbK1gZBNFD9hTKONRZ8tNic7qxnYUn94sKyBrnlKhQFE6q1BIXVbKMjJl38ibtjcsg/300?wxtype=jpeg&amp;wxfrom=0"/><p>江苏博云科技股份有限公司（以下简称“博云”）携手江苏鲲鹏·昇腾生态创新中心，基于鲲鹏，结合国内数据库与操作系统企业，推出博云容器联合解决方案，成功通过Kunpeng Native兼容性技术认证。该方案</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzUyNjk4NjM1MA==&amp;mid=2247716957&amp;idx=3&amp;sn=3096381109cb39d65057862748017255&amp;chksm=fb5d7c601105a161fab0018bd4cf08f86b85d2ecd33375201a628f2dc2af37806e472917aef7&amp;scene=0&amp;xtrack=1#rd</link>
       <pubDate>Sat, 13 Sep 2025 17:11:04 +0800</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[华为全联接大会2025丨昇腾AI参会全览]]></title>
-      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/OCxOD3xB4DUKgYfor8M7aojbK1gZBNFDkvEY86RQ7AEAMQBuTWqYzxqpK1BysEoBdYKTWk8uICGPjcRUK3wD0g/640?wxtype=jpeg&amp;wxfrom=0"/><p>◆往期推荐◆ 华为全联接大会2025丨昇腾AI人工智能产业峰会邀请函请查收!</p>]]></description>
-      <link>http://mp.weixin.qq.com/s?__biz=MzUyNjk4NjM1MA==&amp;mid=2247716950&amp;idx=1&amp;sn=2b2097d1d8bc2ed265a71424870fbfa8&amp;chksm=fbd38ad5ed75ebeb5a6e2727eb97e3ebb7f2b777d9bfb169186f3b06f8a2bd6a7508a181a206&amp;scene=0&amp;xtrack=1#rd</link>
-      <pubDate>Fri, 12 Sep 2025 22:17:54 +0800</pubDate>
     </item>
   </channel>
 </rss>
