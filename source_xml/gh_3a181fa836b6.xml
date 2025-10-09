@@ -10,6 +10,12 @@
       <title>gh_3a181fa836b6</title>
     </image>
     <item>
+      <title><![CDATA[【鲲鹏BoostKit技术速递】重塑流计算效能！鲲鹏自研OmniStream引擎开源：向量化加速Flink，实现吞吐跃升！]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/OCxOD3xB4DUYsyD4z09icz5qCplibx7CjytvPWplNfAgia149O46UjGticHdyglhZicMqyzTVb8Fe6WpaMNxl5ygOfw/640?wxtype=jpeg&amp;wxfrom=0"/><p>鲲鹏OmniStream引擎正式开源，将全Native化流计算引擎融入Flink生态，实现 Flink SQL执行效率平均提升100%+，DataStream执行效率提升30%+。开发者升级现有集群即</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzUyNjk4NjM1MA==&amp;mid=2247717624&amp;idx=1&amp;sn=c760417b2db95795533bbdfe8b66780e&amp;chksm=fbcce7de938b1a389f6a997b694c0161fa78f3228c8a58d1cf64abaa3f869c7b14c8b60c7c29&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Thu, 09 Oct 2025 18:01:41 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[TileAI社区与昇腾完成对接，携手推动开源生态发展]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/OCxOD3xB4DUYsyD4z09icz5qCplibx7CjyCnbwu6jpcBBB8WyaRb6C7ZQkrw1oGF7X3eW44Pib17EeRBrvLtTwxRw/640?wxtype=jpeg&amp;wxfrom=0"/><p>近日，AI基础软件开源生态迎来重要进展，TileAI社区开发的AI编程语言TileLang成功实现了与昇腾的初步对接。这一合作使开发者能够用自己熟悉的编程模式，基于昇腾简易高效的开发AI高性能算子，也</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzUyNjk4NjM1MA==&amp;mid=2247717587&amp;idx=1&amp;sn=2e914164e8dfb973eb332e5e29c895fa&amp;chksm=fb200f7e42cfeb655951b024df95d9b7e85c4fbada57dc3709474ea99dd5d2c8ade9e4bb863f&amp;scene=0&amp;xtrack=1#rd</link>
@@ -301,12 +307,6 @@
       <title><![CDATA[华为全联接大会2025丨一图解锁开发者日的N种玩法]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/OCxOD3xB4DUKgYfor8M7aojbK1gZBNFDbTgZZ9DiaYFOTxCQeDPk3AegOXIbQXgkpAnjr8RtATRz9jYGdMBjD2g/300?wxtype=jpeg&amp;wxfrom=0"/><p>◆往期推荐◆ 华为全联接2025 | 鲲鹏计算产业峰会邀请邀您参会！</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzUyNjk4NjM1MA==&amp;mid=2247716957&amp;idx=2&amp;sn=9a61cefef525459ac27b8eb0561b16a7&amp;chksm=fb619efae0d543bf8152f71453f4038002145ccb001fd2e1c143a38d6ed21ba15ff580617661&amp;scene=0&amp;xtrack=1#rd</link>
-      <pubDate>Sat, 13 Sep 2025 17:11:04 +0800</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[博云基于鲲鹏加速金融数字转型升级]]></title>
-      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/OCxOD3xB4DUKgYfor8M7aojbK1gZBNFD9hTKONRZ8tNic7qxnYUn94sKyBrnlKhQFE6q1BIXVbKMjJl38ibtjcsg/300?wxtype=jpeg&amp;wxfrom=0"/><p>江苏博云科技股份有限公司（以下简称“博云”）携手江苏鲲鹏·昇腾生态创新中心，基于鲲鹏，结合国内数据库与操作系统企业，推出博云容器联合解决方案，成功通过Kunpeng Native兼容性技术认证。该方案</p>]]></description>
-      <link>http://mp.weixin.qq.com/s?__biz=MzUyNjk4NjM1MA==&amp;mid=2247716957&amp;idx=3&amp;sn=3096381109cb39d65057862748017255&amp;chksm=fb5d7c601105a161fab0018bd4cf08f86b85d2ecd33375201a628f2dc2af37806e472917aef7&amp;scene=0&amp;xtrack=1#rd</link>
       <pubDate>Sat, 13 Sep 2025 17:11:04 +0800</pubDate>
     </item>
   </channel>
