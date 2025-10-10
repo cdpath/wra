@@ -10,6 +10,12 @@
       <title>gh_7c89ac484560</title>
     </image>
     <item>
+      <title><![CDATA[Imagination 开源图形驱动新增Vulkan 1.2支持，并扩展多款GPU适配]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/XI99SwibmFnvFzHKPiaUDXhUdoGXbsBHiatvnvn8EnntylpOA4UFfKDuBKgrBQBp36onDe8ST3d9SUjFNOhM10icEQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>在 Imagination，我们始终致力于让开发者、芯片厂商和 OEM厂商能够完全掌控其图形软件。通过采用开源模式，我们让合作伙伴能够根据自身需求自由定制、扩展并独立维护他们的软件栈，而不受专有方案的</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzA4NjMxNTMyNA==&amp;mid=2650029672&amp;idx=1&amp;sn=58e7315e99ed618cf690db732e1c4368&amp;chksm=8677c48487059d2469eeacfe92a0e20b1d8552e9b8c136cf1c664c0c5e3a359ad2cbb0133b6b&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Fri, 10 Oct 2025 08:32:51 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[如何看懂GPU架构？一分钟带你了解GPU参数指标]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/XI99SwibmFnsT8bctC55DM1u6wODDzqGeHHOKILI9MnBdQxE8nqvWP3PwsdYHDViaRJwT4xtHWQeaWSUaxsomXmg/640?wxtype=jpeg&amp;wxfrom=0"/><p>GPU架构参数如CUDA核心数、显存带宽、Tensor TFLOPS、互联方式等，并非 “冰冷的数字”，而是直接关系设备能否满足需求、如何发挥最大价值、是否避免资源浪费等问题的核心要素。本篇文章将全面</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzA4NjMxNTMyNA==&amp;mid=2650029649&amp;idx=1&amp;sn=8d3d8203c8febcb8273aa5a05a0242a6&amp;chksm=866d4cb172aed538c790d78e4f1874051511692f32aaf674b3a5a8406650f6bbaef52778ed74&amp;scene=0&amp;xtrack=1#rd</link>
