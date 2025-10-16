@@ -10,6 +10,18 @@
       <title>gh_9fa5e3792f5f</title>
     </image>
     <item>
+      <title><![CDATA[CANN走进复旦：hixl仓开源&amp;AI百校2.0计划发布]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/7lJFWiaLa9a87auteZBbxH2rw6VTL8VPO3vlZsnhKrlrTlpl0mS87VbV6NCqneaItCjiayNXj2S86F5VcDXeDSbg/640?wxtype=jpeg&amp;wxfrom=0"/><p>2025年10月15日，由开放原子开源基金会主办的“开放原子校园行”在上海复旦大学成功举办。本次活动汇聚了院士专家、高校领导、开放原子开源基金会领导、知名开源社区代表、头部科技企业代表以及周边高校师生</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzA4MzM0ODMyMA==&amp;mid=2447514733&amp;idx=1&amp;sn=715407fc8d3d2365607dee00730c7181&amp;chksm=8a793b3cb3b081c158ef4c15e90fc8e135c53b1d0c67167916e284fb6d6c639e6bf6824b3499&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Thu, 16 Oct 2025 19:09:13 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[NPU DeepSeek-V3.2-Exp推理优化实践]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/7lJFWiaLa9a87auteZBbxH2rw6VTL8VPOxbPIcuGZibUngosCwEwFIdOZf5K4vKhcA4ckvsFjJd5IZfXxwnxRAaQ/300?wxtype=jpeg&amp;wxfrom=0"/><p>DeepSeek团队发布了最新的模型DeepSeek-V3.2-Exp，可利用稀疏架构 DeepSeek Sparse Attention(DSA) 来提高长序列的计算效率，降低推理成本。长上下文场景</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=MzA4MzM0ODMyMA==&amp;mid=2447514733&amp;idx=2&amp;sn=74a6eca928aab5951a5339f4d2e8c05e&amp;chksm=8a41230036b5a7540f171d9e447f522f2c0c8915931dedd542702a42a16b24c5a1fdb4f0a248&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Thu, 16 Oct 2025 19:09:13 +0800</pubDate>
+    </item>
+    <item>
       <title><![CDATA[稀疏Attention架构实战：CANN适配DeepSeek-V3.2-Exp 0day全解析]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/mmbiz_jpg/7lJFWiaLa9aicIuK0WWDdLJhRNgW8bql61dVpanY8sHqdSvJVKUkXk1GtSg8hTR5ticmOgdvnFEdnH65R1tlnbR8w/640?wxtype=jpeg&amp;wxfrom=0"/><p>16日16:00锁定直播间DeepSeek-V3.2-Exp发布并开源，引入稀疏Attention架构昇腾CANN已快速基于vLLM/SGLang等推理框架完成适配部署，实现DeepSeek-V3.2</p>]]></description>
       <link>http://mp.weixin.qq.com/s?__biz=MzA4MzM0ODMyMA==&amp;mid=2447514694&amp;idx=1&amp;sn=7cb2521e6fdf19d1b863c940d58d55e0&amp;chksm=8a14ddb68f7ccb61cdf5f6914dc427cf54fe6aced2719e175d85ddccc239bc76d7bcd1a7e40d&amp;scene=0&amp;xtrack=1#rd</link>
