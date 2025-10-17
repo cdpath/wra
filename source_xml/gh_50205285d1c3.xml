@@ -1,14 +1,20 @@
 <?xml version="1.0" ?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title><![CDATA[沐曦MetaX]]></title>
+    <title><![CDATA[沐曦股份MetaX]]></title>
     <link>https://mp.weixin.qq.com/</link>
-    <description><![CDATA[沐曦MetaX公众号]]></description>
+    <description><![CDATA[沐曦股份MetaX公众号]]></description>
     <language>zh-cn</language>
     <image>
-      <url>https://wx.qlogo.cn/mmhead/ver_1/sg976KR0g1yHMVBlZvmEJjOHrXe5lv96mgXyAfZHyPfnCVhNfgV5CFQhy2GOFgAzLlkRfT9QrPhvoIPtKoAedED4I6yuEjU8bLG95ecAxOw/132</url>
+      <url>https://wx.qlogo.cn/mmhead/Q3auHgzwzM7jXj5HIsh0nRSTJ54iciaLrBzCsibka1a9TY2UxGjtKrMlg/132</url>
       <title>gh_50205285d1c3</title>
     </image>
+    <item>
+      <title><![CDATA[【活动预告 | 开源AI基础设施论坛——“国芯+国模”下开源AI Infra的机遇与挑战 | CNCC2025】]]></title>
+      <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/J2IxqLNkd8lhdcBHbY695DWISY0O1JBFTkiam08DkOxGMc4haYCBoT49ozicWFjTBg2xvfdibhomznZicoHQzicp7gA/640?wxtype=jpeg&amp;wxfrom=0"/><p>01论坛背景与CNCC2025特色CNCC 2025将于10月22-25日在哈尔滨隆重举办。本次大会首次采用“基础-前沿-未来”一体化设计，设置9大主题板块，通过Tutorial、专题论坛、思辨论坛三</p>]]></description>
+      <link>http://mp.weixin.qq.com/s?__biz=Mzg5NzY1MDM3Mg==&amp;mid=2247491563&amp;idx=1&amp;sn=5248e1b2d9069c6182360de69f111a55&amp;chksm=c15a25335683f58bd5d5c745999c081afbca70ffd89ed54fd6f2e884bf14e4870add76244114&amp;scene=0&amp;xtrack=1#rd</link>
+      <pubDate>Fri, 17 Oct 2025 18:33:44 +0800</pubDate>
+    </item>
     <item>
       <title><![CDATA[【原理解析】HAMi × 沐曦 MetaX | sGPU 共享、三档 QoS、拓扑智能调度与 WebUI 全面适配]]></title>
       <description><![CDATA[<img referrerpolicy="no-referrer" src="https://mmecoa.qpic.cn/mmecoa_jpg/iaicjd2vVposAaEKoIxdUNYtA2RtOPialbbib95YXPxkibSdfJ9lMJZqJjfnZjGsZTlmT87zFJvx03GOpMcCSiatPdsQ/640?wxtype=jpeg&amp;wxfrom=0"/><p>近日，密瓜智能团队与沐曦团队紧密合作，基于曦云C系列产品，在 HAMi v2.7.0 版本中联合推出了统一调度方案。该方案通过深度整合，实现了 sGPU 共享、三档 QoS、拓扑智能调度与 WebUI</p>]]></description>
